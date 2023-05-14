@@ -1,0 +1,45 @@
+body {
+  background-color: #87B5B5;
+}
+
+#app {
+  background-color: #87B5B5;
+  padding: 10px;
+}
+
+#editor {
+  font-family: Courier;
+}
+
+#editor, #preview {
+  background-color: #C0D8D8;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  margin: 0px;
+  padding: 0px;
+  width: 99%;
+  height:86vh;
+}
+
+#preview {
+  overflow: scroll;
+}
+
+.col-sm-6 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.editor-head, .preview-head {
+  background-color: #537070;
+  color: white;
+  width: 99%;
+  height: 40px;
+  border: 1px solid black;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  align-content: center;
+  text-transform: uppercase;
+}
